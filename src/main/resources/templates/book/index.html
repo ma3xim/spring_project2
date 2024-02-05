@@ -14,5 +14,9 @@
 <hr/>
 
 <a th:href="@{/book/new}">Добавить книгу</a>
+
+<form th:action="@{/logout}" th:method="POST">
+    <input type="submit" value="Logout">
+</form>
 </body>
 </html>
